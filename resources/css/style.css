@@ -1,0 +1,157 @@
+/* Universal Styles */
+
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+/* h1, h2, h3, h4, span{
+  text-transform: uppercase;
+} */
+
+h1, h4{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+.header{
+  background-color: black;
+  color: white;
+}
+
+.header img{
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+.header .container{
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+
+ .header .container span{
+   font-size: 1rem;
+   text-transform: uppercase;
+   padding-top: 0.66rem;
+   padding-bottom: 0.66rem;
+}
+
+/* Banner Styling */
+
+.banner{
+  background: url(../../resources/images/main-background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.headline{
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+.headline h1{
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 0.25rem;
+}
+
+.headline h4{
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Navigation Styling */
+nav{
+  background-color: firebrick;
+  color: white;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  list-style: none;
+}
+
+.mobile-nav {
+display: none;
+}
+
+/* Products Styling */
+.products{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0px 0px;
+}
+
+.product{
+  width: 30%;
+}
+
+.product-image{
+  height: 9rem;
+  border: 4px solid black;
+  padding: 2rem 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .product-image img{
+   max-width: 8em;
+}
+
+.products .description{
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+/* Locations Styling */
+
+.locations{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.location{
+  width: 35%;
+}
+
+.location .description{
+  display: block;
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Footer Styling */
+
+footer{
+  padding: 5rem 0;
+  background-color: black;
+  color: white;
+  margin-top: 4rem;
+  text-align: left;
+}
